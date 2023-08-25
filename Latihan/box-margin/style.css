@@ -1,0 +1,49 @@
+/* div{
+    display: inline-block;
+} */
+
+.satu{
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    /* margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 50px; */
+    /* margin-right: 20px; */
+    /* margin-bottom: 30px; */
+
+    /* menengahkan div */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* shorthand(menyingkat msrgin)
+    jika 2 value
+    value pertama untuk top&bottom, value kedua untuk right&left
+    jika 3 value
+    value pertama untuk top, value kedua untuk right&left, ketiga untuk bottom 
+    jika 4 value
+    value pertama untuk top, value kedua untuk right, ketiga untuk left, keempat bottom 
+    */
+    
+    margin: 50px auto;
+}
+/* overlapping margin seperti margin-bottom di class satu dan margin-top di class dua kan sifatnya horizontal maka nilai tinggi yang akan dijadikan margin dan misal kedua nilai memiliki value tidak akan ditambahkan dimargin nya, berbanding terbalik jika posisinya vertikal*/
+.dua{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    /* margin-top: 50px; */
+    /* margin-left: 10px; */
+    /* margin-top: -50px;  */
+    /*negatif margin masih bisa dilakukan*/
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.tiga{
+    background-color: violet;
+    width: 50px;
+    height: 50px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}

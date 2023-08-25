@@ -1,0 +1,20 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.satu {
+    background-color: lightgreen;
+}
+
+.dua {
+    background-color: violet;
+    /* Relative adalah posisi yang maju 1 dimensi atau diatas dimensi lainnya sehinggab bisa diubah left top right botto nya tidak menggeser dimensi lain */
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.tiga {
+    background-color: gold;
+}

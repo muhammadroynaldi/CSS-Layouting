@@ -1,0 +1,31 @@
+/* div{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 50px;
+    border: 5px solid black;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: black;
+} */
+
+/* box-sizing */
+div{
+    width: 600px;
+    margin: 10px auto;
+    /* border-box = ukuran boxnya tetap mengikuti div yang digunakan */
+    box-sizing: border-box;
+}
+
+.satu{
+    background-color: lightblue;
+    padding: 10px;
+    border: 5px solid red;
+}
+
+.dua{
+    background-color: lightgreen;
+    padding: 30px;
+    border: 10px dotted black;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimensi dan Overflow</title>
+    <style>
+        /* .satu{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+        .dua{
+            width: 120%;
+            background-color: aqua;
+        } */
+        div{
+            width: 200px;
+            height: 200px;
+            /* konten akan melebihi parent */
+            background-color: pink;
+            overflow: auto;
+            /* 
+            overflow : visible,auto,hidden,scroll
+            visible default overflow konten.
+            auto menambahkan scroll ketika konten melibihi parent.
+            hiden kontennya akan disembunyikan kalo melibihi parent.
+            scroll sama seperti auto cuma jika kontenya tidak lebih scroll nya masih tetap ada
+            */
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="satu">
+        <div class="dua">Hello World</div>
+    </div> -->
+    <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda veniam, quae nam dignissimos corrupti molestias nesciunt cupiditate tempora modi temporibus iusto voluptate repellat iure unde neque animi laudantium saepe perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magni et eius veniam dolor, natus perspiciatis nulla molestiae, doloribus corporis harum sapiente, distinctio temporibus laborum nemo ut expedita totam minima.</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.container {
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+    /* solusi agar containernya membungkus float atau img */
+    /* overflow: auto; */
+}
+
+img {
+    width: 200px;
+    float: left;
+    /* maka tulisan akan mengelilingi gambar */
+    margin: 2px;
+}
+
+.clear {
+    clear: left;
+}

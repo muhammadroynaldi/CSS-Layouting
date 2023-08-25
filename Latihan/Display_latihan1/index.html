@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display CSS</title>
+    <style>
+        /* .navigasi{
+            background-color: orchid;
+        }
+        .main{
+            background-color: aquamarine;
+        }
+        .main span{
+            background-color: pink;
+        } */
+        /* a{
+            background-color: aquamarine;
+            width: 200px;
+            height: 200px;
+            /* jika ingin mengatur tinggi dan lebar dari display inline maka tambahkan display inline-block */
+            /* display: inline-block; */
+        /* .main{
+            width: 600px;
+            background-color: lightgreen;
+        }
+        .main h2{
+            background-color: pink;
+        } */
+        /* ada default display inline yang dapat diubah tinggi dan lebarnya yaitu tag img */
+        /* img{ 
+            width: 200px;
+            height: 200px;
+        } */
+
+        /* elemen display none digunakan untuk menghilangkan elemen */
+        /* img{
+            display: none;
+        } */
+
+        /* cara merubaha perilaku display dari sebuah elemen */
+        .navigasi li{
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        default display
+        tag <span></span> ==> diplaynya itu block, : akan urut ke kanan atau samping dan tidak dapat mengatur tinggi dan lebar nya.
+        tag <div></div> ==> diplaynya itu inline, : urut kebawah atau garis luru dan lebar tinggi nya dapat diatur.
+
+        tidak ada deafult display inline block pada tag html, : sama dengan inline, tetapi inline-block dapat mengatur tinggi dan lebarnya.
+     -->
+    <div class="header">
+        <h1>Selamat datang di website kami</h1>
+    </div>
+
+    <div class="navigasi">
+        <h2>Daftar link</h2>
+        <!-- 
+            ul>li*5>a[href=#]{Link $} 
+            kode diatas digunakan untuk membuat list langsung 5
+        -->
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <h2>Judul Artikel</h2>
+        <h2>Judul Artikel</h2>
+        <img src="image/udinus.png" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi porro accusantium quasi necessitatibus.
+            Aliquid quis debitis natus adipisci ea esse non unde! <span>Molestiae illum minus vero</span>, suscipit debitis quidem
+            dolorum?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolores fugit a sit, itaque ullam laborum,
+            numquam sint quae, qui eveniet nostrum? Molestias ea sequi fugiat quaerat repudiandae? Ex, sequi!</p>
+    </div>
+
+    <div class="copyright">
+        <p class="copyright">Copyright 2023. Muhammad Roynaldi</p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+.container {
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+}
+
+/* .satu, .dua, .tiga {
+    width: 100px;
+    height: 100px;
+}
+
+.satu{
+    background-color: greenyellow;
+}
+
+.dua {
+    background-color: pink;
+    float: left; */
+    /* float left maka kotak pink akan dianggap out offlow
+    float: right;
+}
+
+.tiga{
+    background-color: aqua;
+} */
+
+img {
+    width: 200px;
+    float: left;
+    /* maka tulisan akan mengelilingi gambar */
+    margin: 2px;
+}
